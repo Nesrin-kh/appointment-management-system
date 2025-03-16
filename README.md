@@ -1,11 +1,11 @@
 # Appointment Management System 
 
-📌 Project Overview
+## Project Overview
 
 The Appointment Management System allows users (patients, doctors, and admins) to efficiently manage appointments.
 It includes features such as user registration, login, appointment booking, and an admin dashboard for managing users and appointments.
 
-🛠 Tech Stack
+## Tech Stack
 
 🔹 Frontend
 
@@ -32,21 +32,25 @@ JSON Web Tokens (JWT)
 
 Git & GitHub
 
-#Project Setup
 
-###Prerequisites
+# Project Setup
+
+## Prerequisites
+
 
 Node.js and npm installed on your machine.
 
 SQLite installed and running locally or a connection string for a remote SQLite instance.
 
-Steps to Run the Project
+## Steps to Run the Project
 
 1-Clone the Repository
 
+```bash
   git clone https://github.com/your-username/appointment-management-system.git
   
   cd appointment-management-system
+```
   
 2-Install Dependencies
 
@@ -56,37 +60,42 @@ Steps to Run the Project
     
     npm install
   -For the frontend:
-  
+  ```bash
    cd ../frontend
    
    npm install
+```
    
 3-Set Up Environment Variables
 
  Create a .env file in the backend folder and add the following:
+
  
    PORT=3000
    
    JWT_SECRET=JWT_SECRET
    
 4-Start the Backend Server
-
+```bash
   cd backend
   
   npm start
+```
   
 5-Start the Frontend Development Server
 
+```bash
   cd ../frontend
   
   npm start
+```
   
 6-Access the Application
 
    Open your browser and go to http://localhost:3000
    
 
-# Project Approach
+## Project Approach
 
 I enjoyed working on this project, especially implementing CAPTCHA as it was my first time using it. It was a great learning experience and a valuable new skill. However, one challenge I faced was that CAPTCHA made it harder to validate the registration page quickly, as it required additional steps for user verification.
 
@@ -102,7 +111,7 @@ Used SQLite as a lightweight database.
 Followed RESTful API principles.
 
 
-# Pending Features
+## Pending Features
 
 Email notifications for appointments.
 
